@@ -42,7 +42,7 @@
 		<dependency>
 		  <groupId>com.google.guava</groupId>
 		  <artifactId>guava</artifactId>
-		  <version>13.0.1</version>
+		  <version>24.1.1-jre</version>
 	    </dependency>
 	    
     </dependencies>
@@ -81,7 +81,7 @@
                             </goals>
                           </pluginExecutionFilter>
                           <action>
-                            <ignore />
+                            <ignore/>
                           </action>
                         </pluginExecution>
                       </pluginExecutions>
@@ -107,7 +107,7 @@
                             <executable>java</executable>
                             <arguments>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>org.jruby.Main</argument>
                                 <argument>-S</argument>
                                 <argument>gem</argument>
