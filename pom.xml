@@ -32,7 +32,7 @@
         <dependency>
             <groupId>org.jruby</groupId>
             <artifactId>jruby-complete</artifactId>
-            <version>1.6.8</version>
+            <version>1.7.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.maven</groupId>
@@ -81,7 +81,7 @@
                             </goals>
                           </pluginExecutionFilter>
                           <action>
-                            <ignore />
+                            <ignore/>
                           </action>
                         </pluginExecution>
                       </pluginExecutions>
@@ -107,7 +107,7 @@
                             <executable>java</executable>
                             <arguments>
                                 <argument>-classpath</argument>
-                                <classpath />
+                                <classpath/>
                                 <argument>org.jruby.Main</argument>
                                 <argument>-S</argument>
                                 <argument>gem</argument>
